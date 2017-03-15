@@ -1,0 +1,44 @@
+.graph
+    max-width: 50em
+    max-height: 20em
+
+.meter
+    width: 100%
+    height: 4em
+    margin: 1em 0 0 0
+    position: relative
+    background: rgba(33, 150, 243, 0.1)
+    background: lighten (#2196F3, 50%)
+    display: inline-block
+
+.label
+    background: #424242
+    height: 4em
+    width: 8em
+    padding: 0 2em
+    display: inline-block
+    color: #fff
+    line-height: 4em
+    text-align: center
+
+.fill
+    height: 100%
+    background: #2196F3
+    display: inline-block
+    z-index: 222
+    position: absolute
+
+.meter:nth-of-type(even) .fill
+    background: lighten(#2196F3, 10%)
+
+.meter:nth-of-type(even) .label
+    background: lighten(#212121, 20%)
+
+.drums
+    width: calc(90% - 8em)
+
+.code
+    width: calc(80% - 8em)
+
+.hockey
+    width: calc(88% - 8em)
