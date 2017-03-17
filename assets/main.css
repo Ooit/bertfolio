@@ -67,7 +67,7 @@ html, body, h2, p, h1, h2, h3 {
   height: 0;
   width: 45rem;
   border: 1px solid #696969;
-  margin: 0 auto; }
+  margin: 0 auto 2% auto; }
 
 .hobbies_headline {
   font-size: 11rem;
@@ -82,11 +82,40 @@ html, body, h2, p, h1, h2, h3 {
 .hobbies_text {
   font-size: 1.5rem;
   font-weight: 300;
-  width: 100%; }
+  width: 100%;
+  margin-bottom: 2rem; }
 
 .hobbies article {
   width: 100%;
   padding: 0 5%; }
+
+.drums_img {
+  background: url(images/drum.png) center;
+  background-size: cover;
+  height: 275px;
+  width: 275px;
+  margin: 0 auto; }
+
+.hockey_img {
+  background: url(images/puck.png) center;
+  background-size: cover;
+  height: 275px;
+  width: 275px;
+  margin: 0 auto; }
+
+.code_img {
+  background: url(images/code.png) center;
+  background-size: cover;
+  height: 103px;
+  width: 213px;
+  margin: 0 auto; }
+
+.gaming_img {
+  background: url(images/games.png) center;
+  background-size: cover;
+  height: 275px;
+  width: 275px;
+  margin: 0 auto; }
 
 .skills {
   font-family: "Open Sans", sans-serif;
